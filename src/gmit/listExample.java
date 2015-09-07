@@ -6,13 +6,11 @@ import javax.swing.*;
 public class listExample {
 
 	public static void main(String[] args) {
-		
 		List<String> list1 = new ArrayList<String>(); // Declare and initialise the ArrayList with Name Values
 		fillArrayList(list1); // Calls the method that fills the ArrayList with Values
-		String name = JOptionPane.showInputDialog(null, "Search for a Name"); // Search for a name in the list
 		printToScreen(list1); // method call to print values and options to screen
+		String name = JOptionPane.showInputDialog(null, "Search for a Name"); // Search for a name in the list
 		findNameAndindex(list1, name); // Calls the method, see below
-		
 	} // End main
 	
 	
